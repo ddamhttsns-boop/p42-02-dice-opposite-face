@@ -2,22 +2,19 @@ using System;
 
 class Program
 {
-    // Верните число на грани, противоположной грани n
+    // Верните число на противоположной грани
     static int OppositeFace(int n)
     {
-        // TODO: напишите решение здесь
-        return 0;
+        return 7 - n;
     }
 
     static void Main()
     {
-        Console.OutputEncoding = System.Text.Encoding.UTF8;
-
         Check(2, 5);
         Check(6, 1);
         Check(1, 6);
-        Check(3, 4);
         Check(4, 3);
+        Check(3, 4);
         Check(5, 2);
     }
 
